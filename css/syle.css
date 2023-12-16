@@ -1,0 +1,78 @@
+.header h1{
+
+    padding-top: 2rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    position: relative;
+    margin-bottom: 3rem;
+
+   }
+
+
+   .header h1::before {
+    content: "";
+    position: absolute;
+    width: 19%;
+    height: 20%;
+    left: 40%;
+    right: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+  
+  .page h1:hover::before {
+    height: 40%;
+  }
+* , before{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+ .header-border{
+   border: 1px black dotted;
+   width: 85%;
+   margin: auto;
+  
+ 
+}
+
+.page {
+    min-height: 100vh;
+    background-color: #f7ecde;
+  }
+  
+  .page h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+  }
+
+
+ .container h2{
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+ 
+ } 
+ .bookmarkleft{
+    color: #3ca55c;
+ }
+
+ .bookmarkright{
+   color: #b5ac49;
+ }
+.text-left{
+    color: #3ca55c;
+}
+
+.text-right{
+      color: #b5ac49;
+}
+
+
+.button1{
+    padding: 10px 40px;
+}
